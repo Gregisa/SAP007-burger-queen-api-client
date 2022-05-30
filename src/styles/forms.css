@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    line-height: 1.8em;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    background-color: black;
+}
+
+:root {
+    --dark-grey: #0D0D0D;
+    --dark-brown: #592918;
+    --medium-brown: #8C3D20;
+    --terracota: #F26430;
+    --beige: #F7D595;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+
+.logo {
+    width: 50vw;
+    height: 40vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form {
+    height: 27vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: var(--beige);
+    color: var(--dark-grey);
+    font-size: 20px;
+}
+
+.input-form {
+    background-color: #fff;
+    width: 30vw;
+    height: 2.5em;
+    margin-top: 1em;
+    border: none;
+}
+
+.submit-button {
+    background-color: var(--terracota);
+    width: 15vw;
+    color: black;
+    border: none;
+}
+
+.submit-button a:hover {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+.btn-route {
+    background-color: var(--terracota);
+}
+
+.register-text {
+    background-color: var(--beige);
+    color: var(--dark-grey);
+    bottom: 1em;
+}
