@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  line-height: 1.8em;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  border-radius: 12px;
+  background-color: black;
+}
+
+:root {
+  --dark-grey: #0d0d0d;
+  --dark-brown: #592918;
+  --medium-brown: #8c3d20;
+  --terracota: #f26430;
+  --beige: #f7d595;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form {
+  height: 27vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  background-color: var(--beige);
+  color: var(--dark-grey);
+  font-size: 20px;
+}
+.register-form {
+  height: 37vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  background-color: var(--beige);
+  color: var(--dark-grey);
+  font-size: 20px;
+}
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  background-color: var(--beige);
+}
+
+.input-radio {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  background-color: var(--beige);
+}
+
+.role-label {
+margin: auto;
+background-color: var(--beige);
+}
+
+.register-text {
+  background-color: var(--beige);
+}
+
+.footer-infos a {
+  color: #fff;
+  background-color: var(--dark-grey);
+}
+
+@media (min-width: 1026px) {
+  .login-form {
+    width: 18em;
+    height: 15em;
+  }
+}

@@ -1,6 +1,7 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../../components/Logo";
-import Footer from "../../components/Footer";
+import {Header} from "../../components/Logo";
+import {Footer} from "../../components/Footer";
 
 export function Hall() {
     return (
