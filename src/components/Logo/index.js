@@ -5,10 +5,10 @@ import styled from "styled-components";
 const JBLogo = styled.header`
   display: flex;
   justify-content: center;
-  height: 40vh;
+  height: 450px;
 `;
 
-const LogoImg = styled.img`
+export const LogoImg = styled.img`
   width: 25em;
   height: 25em;
 

@@ -1,17 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {Header} from "../../components/Logo";
+import { SubmitButton } from "../../components/Button";
 import {Footer} from "../../components/Footer";
 
 export function AllOrders() {
+    const navigate= useNavigate();
+
+    function handleBackHall() {
+        localStorage.removeItem("token");
+        navigate("/hall");
+      }
     return (
         <section className="orders-status-container">
             <Header />
-            <button className="back-to-hall-btn">
-                <Link to="/Hall">
-                    Hall
-                </Link>
-            </button>
+            <SubmitButton children="Voltar ao Hall" onClick={handleBackHall}/>
             <p>Aqui ficarão os pedidos</p>
             <Footer />
         </section>
