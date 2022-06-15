@@ -7,7 +7,6 @@ const ButtonDefault = styled.button`
   color: black;
   border: none;
   font-size: 18px;
-  margin-top: 1em;
 
   @media (min-width: 1440px) {
   }

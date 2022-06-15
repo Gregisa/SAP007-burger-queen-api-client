@@ -1,4 +1,8 @@
+<img align="center" alt="CSS" height="30" width="40" src="src/assets/logo.png">
+
 # Jazz Burger - Burger Queen (API Client)
+
+ #### Status: em processo
 
 Jazz Burger - Burguer Queen é uma aplicação web criada para administrar pedidos realizados no salão do restaurante e enviar para o preparo na cozinha. 
 

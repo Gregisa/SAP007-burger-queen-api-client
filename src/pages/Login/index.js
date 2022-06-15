@@ -24,7 +24,7 @@ export function Login() {
         const data = await response.json();
         console.log(data.token);
         setToken(data.token);
-        navigate(data.role === "hall" ? "/allorders" || "/hall" : "/allorders");
+        navigate(data.role === "hall" ? "/hall" : "/kitchen");
       }
       setErrorMessage(errorCode(response));
     } catch (error) {
@@ -52,9 +52,7 @@ export function Login() {
           disable={errorMessage ? false : true}
           message={errorMessage}
         />
-        <SubmitButton onClick={handleLogin} type="submit">
-          Entrar
-        </SubmitButton>
+        <SubmitButton children="Entrar" onClick={handleLogin} type="submit" />
         <p className="register-text">
           Não tem uma conta? &nbsp;
           <Link className="register-text" to="/Register">
